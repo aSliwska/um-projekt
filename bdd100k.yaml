@@ -8,14 +8,14 @@ test: images/test
 
 names:
     0: pedestrian
-    1: rider
+    1: bicycle
     2: car
-    3: truck
-    4: bus
-    5: train
-    6: motorcycle
-    7: bicycle
-    8: traffic light
-    9: traffic sign
+    3: motorcycle
+    4: rider
+    5: bus
+    6: train
+    7: truck
+    8: traffic sign
+    9: traffic light
 
-cls_weights: [3.0, 5.0, 1.0, 5.0, 5.0, 10.0, 5.0, 5.0, 1.0, 1.0]
+cls_weights: [3.0, 7.0, 1.0, 7.0, 7.0, 5.0, 10.0, 5.0, 2.0, 2.0]
